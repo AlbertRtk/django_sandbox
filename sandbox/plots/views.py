@@ -4,8 +4,12 @@ import plotly.graph_objects as go
 
 
 def demo_plot_view(request):
+    """ 
+    View demonstrating how to display a graph object
+    on a web page with Plotly. 
+    """
     
-    # generating some data for plots
+    # Generating some data for plots.
     x = [i for i in range(-10, 11)]
     y1 = [3*i for i in x]
     y2 = [i**2 for i in x]
@@ -15,9 +19,9 @@ def demo_plot_view(request):
     # Each object will contain on series of data.
     graphs = []
 
-    # Adding linear plot of y1 vs. x
+    # Adding linear plot of y1 vs. x.
     graphs.append(
-        go.Line(x=x, y=y1, name='Line y1')
+        go.Scatter(x=x, y=y1, mode='lines', name='Line y1')
     )
 
     # Adding scatter plot of y2 vs. x. 
