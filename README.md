@@ -1,1 +1,3 @@
-# django_sandbox
+# Django sandbox
+
+Examples of Django apps.

@@ -15,7 +15,7 @@ def demo_plot_view(request):
     y2 = [i**2 for i in x]
     y3 = [10*abs(i) for i in x]
 
-    # List of graph objects for plot.
+    # List of graph objects for figure.
     # Each object will contain on series of data.
     graphs = []
 
