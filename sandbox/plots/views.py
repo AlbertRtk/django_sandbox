@@ -41,8 +41,8 @@ def demo_plot_view(request):
         'title': 'Title of the figure',
         'xaxis_title': 'X',
         'yaxis_title': 'Y',
-        'height': 600,
-        'width': 800,
+        'height': 420,
+        'width': 560,
     }
 
     # Getting HTML needed to render the plot.
